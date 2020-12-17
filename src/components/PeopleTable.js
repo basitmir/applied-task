@@ -76,7 +76,7 @@ const PeopleTable = ({ peopleData }) => {
 					editable: 'never',
 					render: (rowData) => (
 						<div
-							onClick={() => handleClick(rowData.films, 'Vehicles')}
+							onClick={() => handleClick(rowData.vehicles, 'Vehicles')}
 							style={{ cursor: 'pointer' }}
 						>
 							{rowData.vehicles.length}
@@ -89,7 +89,7 @@ const PeopleTable = ({ peopleData }) => {
 					editable: 'never',
 					render: (rowData) => (
 						<div
-							onClick={() => handleClick(rowData.films, 'Starships')}
+							onClick={() => handleClick(rowData.starships, 'Starships')}
 							style={{ cursor: 'pointer' }}
 						>
 							{rowData.starships.length}
